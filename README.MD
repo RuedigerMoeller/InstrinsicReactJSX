@@ -1,3 +1,8 @@
 Backs a blogpost (copied from kontraktor/examples).
 
-These example are not updated (to keep them stable), refer to the original kontraktor github repo for newer / adapted versions 
+These example are not updated (to keep them stable), refer to the original kontraktor github repo for newer / adapted versions.
+
+The repo contains 3 maven projects:
+* react-intrinsic-minimal. Minimal intrinsic react example (requires kontraktor-http only).
+* react-no-babel. Sample App mentioned in Blogpost using kontraktor jsx transpilation and bundling.
+* react-with-babel. Sample App mentioned in Blogpost using a nodejs babel/browserify daemon to perform jsx transpilation and bundling.

@@ -1,4 +1,4 @@
-Backs a blogpost (copied from kontraktor/examples).
+Backs a [blogpost](https://www.juptr.io/juptrblogs/_e67b0d1e-98f8-44fb-b431-845005f36129.html) (copied from kontraktor/examples).
 
 These example are not updated (to keep them stable), refer to the original kontraktor github repo for newer / adapted versions.
 

@@ -1,4 +1,4 @@
-# Native Java React JSX Transpilation and SPA Bundling Examples
+# Native Java React/JSX Transpilation+Bundling Examples
 
 These example are not updated (to keep them stable), refer to the original kontraktor github repo for newer / adapted versions.
 

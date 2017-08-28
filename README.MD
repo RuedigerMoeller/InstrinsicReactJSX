@@ -6,7 +6,7 @@ once (watch console)
 * as source is kept in separate files during development mode, loading is somewhat slowish (~3 seconds). Set DEVMODE to false 
 inside ReactMaterialUITestApp, restart server in order to see loading time of bundled and minified app.
 
-Full example featuring
+**Full example featuring ..**
 
 * jsx transpilation, automatic resolvment of missing npm dependcies (without having nodejs/npm installed)
 * Actor based async server
@@ -22,6 +22,15 @@ Full example featuring
 * goto localhost:8080 in your browser
 * first request triggers download of required npm packages so give it like 50 seconds (wathc console)
 * set DEVMODE to false to get a (dynamically) bundled build
+
+commandline:
+```bash
+git clone https://github.com/RuedigerMoeller/InstrinsicReactJSX.git
+cd InstrinsicReactJSX/
+mvn clean package
+java -cp target/react-material-ui-1.0-SNAPSHOT-jar-with-dependencies.jar sample.reactmaterial.ReactMaterialUITestApp
+```
+browser: localhost:8080  (watch console on first request isntalling dependencies ..)
 
 **see session resurrection**
 

@@ -1,4 +1,4 @@
-import {Component}, React from 'react'
+import React, {Component} from 'react'
 
 export class HCenter extends Component {
 

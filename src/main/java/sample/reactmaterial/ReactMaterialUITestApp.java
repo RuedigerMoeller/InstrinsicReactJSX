@@ -46,7 +46,7 @@ public class ReactMaterialUITestApp extends Actor<ReactMaterialUITestApp> implem
         return resolve(session); // == new Promise(session)
     }
 
-    @Override
+    @Override @Local
     public IPromise<Actor> reanimate(String sessionId, long remoteRefId) {
         // dummy in memory
         String userName = (String) persistance.getSessionData(sessionId);

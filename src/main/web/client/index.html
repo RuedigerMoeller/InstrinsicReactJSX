@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="" style="height: 100%;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>react playground sample</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body style="min-height: 100%; display: flex;">
+
+<div id="root" style="width: 80%;margin: 0 auto;"></div>
+
+<script src="index.jsx"></script>
+
+<!-- take care: in dev mode index.jsx is loaded deferred (side effect of document.write -->
+<!-- This script adds the Roboto font to our project. For more detail go to this site:  http://www.google.com/fonts#UsePlace:use/Collection:Roboto:400,300,500 -->
+<script>
+  var WebFontConfig = {
+    google: { families: [ 'Roboto:400,300,500:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
+
+</body>
+
+</html>

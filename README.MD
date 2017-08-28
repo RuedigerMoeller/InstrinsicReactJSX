@@ -1,16 +1,17 @@
-# Native Java React/JSX Transpilation+Bundling Examples
+# Testbed react with kontraktor (without node/babel) + 3rd party libs
 
-These example are not updated (to keep them stable), refer to the original kontraktor github repo for newer / adapted versions.
+Full example featuring
 
-The repo contains 3 maven projects:
-* react-intrinsic-minimal. Minimal intrinsic react example (requires kontraktor-http only, the other 2 require kontraktor-web).
-* react-no-babel. Sample App mentioned in Blogpost using kontraktor jsx transpilation and bundling.
-* react-with-babel. Sample App mentioned in Blogpost using a nodejs babel/browserify daemon to perform jsx transpilation and bundling.
+* jsx transpilation, automatic npm download (without having nodejs/npm installed)
+* Session handling
+* Session timeout handling
+* Session resurrection. (SPA client was away/offline and connects back)
+* Dynamic connection type (http adaptive long poll or websockets) without code change
 
-see 
-* kontraktor/examples/servlet on how to run this isnside a servlet container
-* kontraktor/examples/webapp-spa/react-test-playground for 3rd party library integration examples
+**how to run:**
 
-Backs a [blogpost](https://www.juptr.io/juptrblogs/_e67b0d1e-98f8-44fb-b431-845005f36129.html) (copied from kontraktor/examples).
-
-[More Documentaion](https://github.com/RuedigerMoeller/kontraktor/wiki/Kontraktor-4-React-JSX)
+* add project to your ide (from pom)
+* run ReactMaterialUITestApp with workingdir [...]/examples/webapp-spa/react-ui-lib-examples/react-material-ui
+* goto localhost:8080 in your browser
+* first request triggers download of required npm packages so give it like 50 seconds (wathc console)
+* set DEVMODE to false to get a (dynamically) bundled build

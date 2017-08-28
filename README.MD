@@ -3,6 +3,7 @@
 Full example featuring
 
 * jsx transpilation, automatic npm download (without having nodejs/npm installed)
+* Actor based async server
 * Session handling
 * Session timeout handling
 * Session resurrection. (SPA client was away/offline and connects back)

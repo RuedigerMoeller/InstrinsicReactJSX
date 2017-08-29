@@ -1,7 +1,7 @@
 # react-material-ui with kontraktor intrinsic stack (no node/npm/babel required)
 
 
-**Full example featuring ..**
+**Full web app example featuring ..**
 
 * jsx transpilation, automatic resolvment of missing npm dependcies (without having nodejs/npm installed)
 * Actor based async server
@@ -10,6 +10,8 @@
 * Session resurrection. (SPA client was away/offline and connects back)
 * Dynamic connection type (http adaptive long poll or websockets) without code change
 
+[kontraktor home](https://github.com/RuedigerMoeller/kontraktor)
+
 **how to run:**
 
 * add project to your ide (from pom)
@@ -17,8 +19,6 @@
 * goto localhost:8080 in your browser
 * first request triggers download of required npm packages so give it like 50 seconds (wathc console)
 * set DEVMODE to false to get a (dynamically) bundled build
-
-[kontraktor lib is here](https://github.com/RuedigerMoeller/kontraktor)
 
 Note:
 * on the initial request, all missing npm dependencies are installed by kontraktor-Jnpm, this migth take up to a minute,

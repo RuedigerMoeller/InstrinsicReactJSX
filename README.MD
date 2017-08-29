@@ -1,6 +1,5 @@
 # react-material-ui with kontraktor intrinsic stack (no node/npm/babel required)
 
-[![Watch the video](http://img.youtube.com/vi/CuYuynl16o4/0.jpg)](http://youtu.be/CuYuynl16o4)
 
 **Full example featuring ..**
 
@@ -47,3 +46,5 @@ stale data.
 
 Of course a real world app might associate arbitrary session data with a session id. Session resurrection is important
 for SPA apps (especially on mobile) as one frequently loses connection or keeps an SPA open for days without "refreshing".
+
+[![Watch the video](http://img.youtube.com/vi/CuYuynl16o4/0.jpg)](http://youtu.be/CuYuynl16o4)

@@ -32,7 +32,7 @@ java -cp target/react-material-ui-1.0-SNAPSHOT-jar-with-dependencies.jar sample.
 ```
 browser: localhost:8080  (watch console on first request isntalling dependencies ..)
 
-**see session resurrection**
+**session resurrection**
 
 * goto localhost:8080 login (just some dummy nick)
 * press greet button

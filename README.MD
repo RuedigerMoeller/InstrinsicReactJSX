@@ -3,7 +3,7 @@
 
 **Full web app example featuring ..**
 
-* jsx transpilation, automatic resolvment of missing npm dependcies (without having nodejs/npm installed)
+* jsx transpilation, automatic resolvment of missing npm dependencies (without having nodejs/npm installed)
 * Actor based async server
 * Session handling
 * Session timeout handling

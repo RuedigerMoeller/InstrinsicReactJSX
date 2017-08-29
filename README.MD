@@ -1,5 +1,7 @@
 # react-material-ui with kontraktor intrinsic stack (no node/npm/babel required)
 
+[![Watch the video](http://img.youtube.com/vi/CuYuynl16o4/0.jpg)](http://youtu.be/CuYuynl16o4)
+
 **Full example featuring ..**
 
 * jsx transpilation, automatic resolvment of missing npm dependcies (without having nodejs/npm installed)

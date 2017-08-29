@@ -1,4 +1,4 @@
-# react-material-ui with kontraktor intrinsic stack (no node/npm/babel required)
+# react-material-ui with a pure java stack (no node/npm/babel required)
 
 
 **Full web app example featuring ..**

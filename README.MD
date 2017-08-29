@@ -2,7 +2,7 @@
 
 **Read:**
 * on the very first request, all missing npm dependencies are installed by kontraktor-Jnpm, this migth take up to a minute
-once (watch console)
+once (watch console). Only in development mode.
 * as source is kept in separate files during development mode, loading is somewhat slowish (~3 seconds). Set DEVMODE to false 
 inside ReactMaterialUITestApp, restart server in order to see loading time of bundled and minified app.
 

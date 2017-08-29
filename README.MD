@@ -12,6 +12,8 @@
 
 [kontraktor home](https://github.com/RuedigerMoeller/kontraktor)
 
+[Examples for semantic-ui-react and react-bootstrap](https://github.com/RuedigerMoeller/kontraktor/tree/trunk/examples/webapp-spa/react-ui-lib-examples)
+
 **how to run:**
 
 * add project to your ide (from pom)

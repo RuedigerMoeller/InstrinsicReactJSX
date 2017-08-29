@@ -18,6 +18,8 @@
 * first request triggers download of required npm packages so give it like 50 seconds (wathc console)
 * set DEVMODE to false to get a (dynamically) bundled build
 
+[kontraktor lib is here](https://github.com/RuedigerMoeller/kontraktor)
+
 Note:
 * on the initial request, all missing npm dependencies are installed by kontraktor-Jnpm, this migth take up to a minute,
 **once** (watch console) per install.

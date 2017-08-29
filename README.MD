@@ -33,7 +33,7 @@ commandline:
 git clone https://github.com/RuedigerMoeller/InstrinsicReactJSX.git
 cd InstrinsicReactJSX/
 mvn clean package
-java -cp target/react-material-ui-1.0-SNAPSHOT-jar-with-dependencies.jar sample.reactmaterial.ReactMaterialUITestApp
+java -jar target/bundle.jar
 ```
 browser: localhost:8080  (watch console on first request isntalling dependencies ..)
 

@@ -76,7 +76,7 @@ public class ReactMaterialUITestApp extends Actor<ReactMaterialUITestApp> implem
     }
 
     public static void main(String[] args) {
-        boolean DEVMODE = true;
+        boolean DEVMODE = true && (args == null || args.length == 0) ;
 
         if ( ! new File("./src/main/web/client/index.html").exists() ) {
             System.out.println("Please run with working dir: '[..]/react-material-ui");
@@ -92,7 +92,7 @@ public class ReactMaterialUITestApp extends Actor<ReactMaterialUITestApp> implem
                 .transpile("jsx",
                     new JSXIntrinsicTranspiler(DEVMODE)
                         .configureJNPM("./src/main/web/node_modules","./src/main/web/jnpm.kson")
-                        .autoJNPM(DEVMODE)
+                        .autoJNPM(true)
                 )
                 .allDev(DEVMODE)
                 .buildResourcePath()

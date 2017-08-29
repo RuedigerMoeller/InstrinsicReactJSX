@@ -1,11 +1,5 @@
 # react-material-ui with kontraktor intrinsic stack (no node/npm/babel required)
 
-**Read:**
-* on the very first request, all missing npm dependencies are installed by kontraktor-Jnpm, this migth take up to a minute
-once (watch console) per install.
-* as source is kept in separate files during development mode, loading is somewhat slowish (~3 seconds). Set DEVMODE to false 
-inside ReactMaterialUITestApp, restart server in order to see loading time of bundled and minified app. Even then: First request triggers bundling (cached then) as kontraktor-http favors dynamic optimization over 'pre-building' (for now ;) ).
-
 **Full example featuring ..**
 
 * jsx transpilation, automatic resolvment of missing npm dependcies (without having nodejs/npm installed)
@@ -22,6 +16,12 @@ inside ReactMaterialUITestApp, restart server in order to see loading time of bu
 * goto localhost:8080 in your browser
 * first request triggers download of required npm packages so give it like 50 seconds (wathc console)
 * set DEVMODE to false to get a (dynamically) bundled build
+
+Note:
+* on the initial request, all missing npm dependencies are installed by kontraktor-Jnpm, this migth take up to a minute,
+**once** (watch console) per install.
+* as source is kept in separate files during development mode, loading is somewhat slowish (~3 seconds). Set DEVMODE to false 
+inside ReactMaterialUITestApp, restart server in order to see loading time of bundled and minified app. Even then: First request triggers bundling (cached then) as kontraktor-http favors dynamic optimization over 'pre-building' (for now ;) ).
 
 commandline:
 ```bash

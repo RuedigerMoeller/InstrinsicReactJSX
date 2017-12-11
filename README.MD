@@ -7,7 +7,11 @@
 * emulation of npm dependency tracking
 * integrated bundler/transpiler (no nodejs/npm/webpack required).
   aggregates and bundles app into a single ES5 index.html file in production mode.
-* Actor based async server
+* MaterialUI is just a sample, has been tested with react-bootstrap and react-semantic-ui as well (should work with any npm powered js lib)
+  
+** Server Side **
+
+* Actor based async server (in Java)
 * Session handling
 * Session timeout handling
 * Session resurrection. (SPA client was away/offline and connects back)

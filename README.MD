@@ -17,6 +17,7 @@
 * Session resurrection. (SPA client was away/offline and connects back)
 * Dynamic connection type (http adaptive long poll or websockets) without code change
 
+**more docs**
 [Kontraktor's JSX transpilation + npm emulation](https://github.com/RuedigerMoeller/kontraktor/wiki/Kontraktor-4-React-JSX)
 
 [Kontraktor home](https://github.com/RuedigerMoeller/kontraktor)

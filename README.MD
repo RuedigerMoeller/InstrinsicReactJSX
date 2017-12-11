@@ -3,11 +3,11 @@
 
 **Full web app example featuring ..**
 
-* jsx transpilation 
+* **jsx transpilation**
 * emulation of npm dependency management ('JNPM')
 * integrated bundler/transpiler (no nodejs/npm/webpack required).
-  aggregates and bundles app into a single ES5 index.html file in production mode.
-* react-material-UI is just a sample, has been tested with react-bootstrap and react-semantic-ui as well (should work with any npm powered js lib)
+  Aggregates and bundles app into a single ES5 index.html file in production mode. (uses homegrown bundler + **google clojure compiler** for transpilation
+* has been tested with major react-UI libs: react-material-ui, react-bootstrap and react-semantic-ui (should work with any npm powered js lib)
   
 **Server Side**
 

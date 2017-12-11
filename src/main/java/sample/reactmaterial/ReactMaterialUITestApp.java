@@ -9,6 +9,7 @@ import org.nustaq.kontraktor.remoting.base.SessionResurrector;
 import org.nustaq.kontraktor.remoting.encoding.SerializerType;
 import org.nustaq.kontraktor.remoting.http.undertow.Http4K;
 import org.nustaq.kontraktor.util.Log;
+import org.nustaq.kontraktor.webapp.javascript.clojure.ClojureJSPostProcessor;
 import org.nustaq.kontraktor.webapp.transpiler.JSXIntrinsicTranspiler;
 
 import java.io.File;
@@ -76,6 +77,7 @@ public class ReactMaterialUITestApp extends Actor<ReactMaterialUITestApp> implem
     }
 
     public static void main(String[] args) {
+        // provide any argument for PRODMODE
         boolean DEVMODE = true && (args == null || args.length == 0) ;
 
         if ( ! new File("./src/main/web/client/index.html").exists() ) {
@@ -95,6 +97,8 @@ public class ReactMaterialUITestApp extends Actor<ReactMaterialUITestApp> implem
                         .autoJNPM(true)
                 )
                 .allDev(DEVMODE)
+                .jsPostProcessors(new ClojureJSPostProcessor()) // uses google clojure transpiler to ES5 (PRODMODE only)
+                .productionBuildDir(new File("./dist") ) // (PRODMODE only: look (and create if not present) static build artefact for budled index.html [avoid rebundling on first request in prodmode]
                 .buildResourcePath()
             .httpAPI("/api", app)
                 .serType(SerializerType.JsonNoRef)

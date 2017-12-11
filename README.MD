@@ -17,6 +17,8 @@
 * Session resurrection. (SPA client was away/offline and connects back)
 * Dynamic connection type (http adaptive long poll or websockets) without code change
 
+[![Watch the video](http://img.youtube.com/vi/CuYuynl16o4/0.jpg)](http://youtu.be/CuYuynl16o4)
+
 **more docs**
 
 [Kontraktor's JSX transpilation + npm emulation](https://github.com/RuedigerMoeller/kontraktor/wiki/Kontraktor-4-React-JSX)
@@ -62,4 +64,4 @@ stale data.
 Of course a real world app might associate arbitrary session data with a session id. Session resurrection is important
 for SPA apps (especially on mobile) as one frequently loses connection or keeps an SPA open for days without "refreshing".
 
-[![Watch the video](http://img.youtube.com/vi/CuYuynl16o4/0.jpg)](http://youtu.be/CuYuynl16o4)
+

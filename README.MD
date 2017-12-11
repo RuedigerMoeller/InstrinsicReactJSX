@@ -1,4 +1,4 @@
-# react-material-ui with a pure java stack (no node/npm/babel required)
+# react-app powered by a pure java stack (no node/npm/babel required)
 
 
 **Full web app example featuring ..**

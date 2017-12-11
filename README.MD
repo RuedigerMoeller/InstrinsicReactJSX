@@ -4,7 +4,7 @@
 **Full web app example featuring ..**
 
 * jsx transpilation 
-* emulation of npm dependency tracking
+* emulation of npm dependency management ('JNPM')
 * integrated bundler/transpiler (no nodejs/npm/webpack required).
   aggregates and bundles app into a single ES5 index.html file in production mode.
 * MaterialUI is just a sample, has been tested with react-bootstrap and react-semantic-ui as well (should work with any npm powered js lib)

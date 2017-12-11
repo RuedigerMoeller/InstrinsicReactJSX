@@ -1,4 +1,4 @@
-# react-app powered by a pure java stack (no node/npm/babel required)
+# alternative to webpack/babel: react JSX app powered by a pure java impl of bundling/npm/transpilation
 
 
 **Full web app example featuring ..**

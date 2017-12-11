@@ -3,7 +3,10 @@
 
 **Full web app example featuring ..**
 
-* jsx transpilation, automatic resolvment of npm dependencies, bundling (without having nodejs/npm installed)
+* jsx transpilation 
+* emulation of npm dependency tracking
+* integrated bundler/transpiler (no nodejs/npm/webpack required).
+  aggregates and bundles app into a single ES5 index.html file in production mode.
 * Actor based async server
 * Session handling
 * Session timeout handling

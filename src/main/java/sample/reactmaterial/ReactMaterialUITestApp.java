@@ -95,6 +95,7 @@ public class ReactMaterialUITestApp extends Actor<ReactMaterialUITestApp> implem
                     new JSXIntrinsicTranspiler(DEVMODE)
                         .configureJNPM("./src/main/web/node_modules","./src/main/web/jnpm.kson")
                         .autoJNPM(true)
+                        .hmr(DEVMODE) // support required for hot reloading
                 )
                 .allDev(DEVMODE)
                 .jsPostProcessors(new ClojureJSPostProcessor()) // uses google clojure transpiler to ES5 (PRODMODE only)
@@ -110,6 +111,7 @@ public class ReactMaterialUITestApp extends Actor<ReactMaterialUITestApp> implem
                 .serType(SerializerType.JsonNoRef)
                 .sendSid(true)
                 .buildWebsocket()
+            .hmrServer(DEVMODE) // hot reloading file tracking server
             .build();
     }
 

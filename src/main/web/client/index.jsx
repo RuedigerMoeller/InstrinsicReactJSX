@@ -13,6 +13,7 @@ import Dialog from 'material-ui/Dialog';
 import Static from './static';
 import {RadioButtonGroup,RadioButton} from 'material-ui/RadioButton';
 import Snackbar from 'material-ui/Snackbar';
+import {KClient} from 'kontraktor-client';
 
 class App extends Component {
 
@@ -179,5 +180,8 @@ class App extends Component {
 
 }
 
-global.app = <App/>;
-ReactDOM.render(global.app,document.getElementById("root"));
+if ( typeof _kHMR === 'undefined' ) { // only load once, not when doing hot reloading
+  global.app = <App/>;
+  // required for hot reloading
+  window._kreactapprender = ReactDOM.render(global.app,document.getElementById("root"));
+}

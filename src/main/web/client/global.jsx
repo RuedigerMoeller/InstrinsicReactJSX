@@ -1,7 +1,7 @@
 import {KClient} from 'kontraktor-client'
 
 const global = {
-  kclient: new KClient(), // loaded in index.html, no import required
+  kclient: new KClient(),
   app: null,
   server: null,
   session: null

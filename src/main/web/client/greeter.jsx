@@ -19,6 +19,8 @@ class Greeter extends Component {
   }
 
   anotherGreet() {
+    if ( window._kreactapprender )
+      window._kreactapprender.forceUpdate();
     global.session.greet("Another World "+new Date())
     .then( (res,err) => this.setState({greeting: err ? err : res}) );
   }

@@ -1,21 +1,19 @@
-# alternative to webpack/babel: react JSX app powered by a pure java impl of bundling/npm/transpilation
-
+# react JSX app powered by a java backend, java implementation of jsx/bundling/npm/transpilation
 
 **Full web app example featuring ..**
 
-* **jsx transpilation**
-* emulation of npm dependency management ('JNPM')
-* integrated bundler/transpiler (no nodejs/npm/webpack required).
-  Aggregates and bundles app into a single ES5 index.html file in production mode. (uses homegrown bundler + **google clojure compiler** for transpilation
+* **intrinsic jsx transpilation** 
+* **hot reloading / live editing**
+* built-in **npm replacement** dependency management ('JNPM') fetches missing imports on demand
+* integrated bundler/transpiler.
+* (optional) integrates google-clojure compiler to compile down to **ES5** in production mode
 * has been tested with major react-UI libs: react-material-ui, react-bootstrap and react-semantic-ui (should work with any npm powered js lib)
   
 **Server Side**
 
-* Actor based async server (in Java)
-* Session handling
-* Session timeout handling
-* Session resurrection. (SPA client was away/offline and connects back)
-* Dynamic connection type (http adaptive long poll or websockets) without code change
+* Actor based async server (Java 8, node style threading model, but enables multithreading by assigning a client sessions to additional threads)
+* (optional) ) Session handling, timeout, ressurrection (SPA client was away/offline and connects back) 
+* Dynamically change connection type (http adaptive long poll or websockets) without code change
 
 [![Watch the video](http://img.youtube.com/vi/CuYuynl16o4/0.jpg)](http://youtu.be/CuYuynl16o4)
 

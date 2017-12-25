@@ -228,11 +228,15 @@ const TextFieldExampleSimple = () => (
       rows={2}
     /><br />
     <TextField
-      hintText="Full width"
+      hintText="Full width 4"
       fullWidth={true}
     />
   </div>
 );
+
+let Dummy = function() { return "Hello anon"}
+function Dummy1() { return "Hello named function";}
+const DummyLambda = () => { return "Hello lambda function"; };
 
 class MaterialPlay extends React.Component {
 
@@ -240,6 +244,7 @@ class MaterialPlay extends React.Component {
     return (
       <div style={{marginTop: 48, marginBottom: 48}}>
         <h1>Material UI</h1>
+        <p>{"Dummy:"+Dummy()+"  Dummy1:"+Dummy1()+"  DummyLambda:"+DummyLambda()}</p>
         <ChipExampleArray/>
         <div>
           <TextFieldExampleSimple/>

@@ -88,8 +88,6 @@ public class ReactMaterialUITestApp extends Actor<ReactMaterialUITestApp> implem
         ReactMaterialUITestApp app = AsActor(ReactMaterialUITestApp.class);
         app.init(4);
 
-        JSXIntrinsicTranspiler.USE_CUSTOM_RELOADFUN = true;
-
         Http4K.Build("localhost", 8080)
             .resourcePath("/")
                 .elements("./src/main/web/client","./src/main/web/lib","./src/main/web/node_modules")

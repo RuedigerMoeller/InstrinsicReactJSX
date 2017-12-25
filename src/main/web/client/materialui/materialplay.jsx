@@ -12,6 +12,11 @@ import NotificationsIcon from 'material-ui/svg-icons/social/notifications';
 import Chip from 'material-ui/Chip';
 import TextField from 'material-ui/TextField';
 
+const StepOpt = [
+  'Select campaign settings...',
+  'What is an super ad group anyways?',
+  'This is the bit I really care about!',
+];
 /**
  * Horizontal steppers are ideal when the contents of one step depend on an earlier step.
  * Avoid using long step names in horizontal steppers.
@@ -46,11 +51,9 @@ class HorizontalLinearStepper extends React.Component {
   getStepContent(stepIndex) {
     switch (stepIndex) {
       case 0:
-        return 'Select campaign settings...';
       case 1:
-        return 'What is an ad group anyways?';
       case 2:
-        return 'This is the bit I really care about!';
+        return StepOpt[stepIndex];
       default:
         return 'You\'re a long way from home sonny jim!';
     }
@@ -64,13 +67,13 @@ class HorizontalLinearStepper extends React.Component {
       <div style={{width: '100%', maxWidth: 700, margin: 'auto'}}>
         <Stepper activeStep={stepIndex}>
           <Step>
-            <StepLabel>Select campaign settings</StepLabel>
+            <StepLabel>{StepOpt[0]}</StepLabel>
           </Step>
           <Step>
-            <StepLabel>Create an ad group</StepLabel>
+            <StepLabel>{StepOpt[1]}</StepLabel>
           </Step>
           <Step>
-            <StepLabel>Create an ad</StepLabel>
+            <StepLabel>{StepOpt[2]}</StepLabel>
           </Step>
         </Stepper>
         <div style={contentStyle}>
@@ -110,16 +113,21 @@ class HorizontalLinearStepper extends React.Component {
   }
 }
 
+const badges = {
+  one: 5,
+  two: 10
+};
+
 const BadgeExampleSimple = () => (
   <div>
     <Badge
-      badgeContent={4}
+      badgeContent={badges.one}
       primary={true}
     >
       <NotificationsIcon />
     </Badge>
     <Badge
-      badgeContent={10}
+      badgeContent={badges['two']}
       secondary={true}
       badgeStyle={{top: 12, right: 12}}
     >
@@ -228,13 +236,13 @@ const TextFieldExampleSimple = () => (
       rows={2}
     /><br />
     <TextField
-      hintText="Full width 4"
+      hintText="Full width"
       fullWidth={true}
     />
   </div>
 );
 
-let Dummy = function() { return "Hello anon"}
+let Dummy = function() { return "Hello anononymous"}
 function Dummy1() { return "Hello named function";}
 const DummyLambda = () => { return "Hello lambda function"; };
 
@@ -244,7 +252,7 @@ class MaterialPlay extends React.Component {
     return (
       <div style={{marginTop: 48, marginBottom: 48}}>
         <h1>Material UI</h1>
-        <p>{"Dummy:"+Dummy()+"  Dummy1:"+Dummy1()+"  DummyLambda:"+DummyLambda()}</p>
+        <p>{"Dummy:'"+Dummy()+"' Dummy1:'"+Dummy1()+"' DummyLambda:'"+DummyLambda()+"'"}</p>
         <ChipExampleArray/>
         <div>
           <TextFieldExampleSimple/>

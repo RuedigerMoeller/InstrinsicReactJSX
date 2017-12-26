@@ -34,6 +34,7 @@ class HorizontalLinearStepper extends React.Component {
   }
 
   handleNext() {
+    debugger;
     const {stepIndex} = this.state;
     this.setState({
       stepIndex: stepIndex + 1,

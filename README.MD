@@ -11,7 +11,7 @@
   
 **Server Side**
 
-* Actor based async server (Java 8, node style threading model, but enables multithreading by assigning a client sessions to additional threads)
+* Actor based async server (Java 8, node style threading model, but enables multithreading by assigning client sessions to additional threads)
 * (optional) ) Session handling, timeout, ressurrection (SPA client was away/offline and connects back) 
 * Dynamically change connection type (http adaptive long poll or websockets) without code change
 

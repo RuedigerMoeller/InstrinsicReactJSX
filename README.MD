@@ -8,7 +8,7 @@
 
 Has been tested with major react-UI libs: react-material-ui, react-bootstrap and react-semantic-ui (should work with any npm powered js lib)
   
-**Server Side**
+## Server Side
 
 * Actor based async server (Java 8, node style threading model, but enables multithreading by assigning client sessions to additional threads)
 * (optional) Session handling, timeout, ressurrection (SPA client was away/offline and connects back) 

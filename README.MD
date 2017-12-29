@@ -1,9 +1,11 @@
 # React JSX front end app powered by a java backend, no node/npm/webpack required
 
-* **intrinsic jsx transpilation** 
+## Frontend
+
+* **intrinsic react jsx transpilation** 
 * Ultra fast **hot reloading / live editing** (Disclaimer: breakpoints cannot be set inside Chrome then: use **'debugger;'** instead)
 * built-in **npm replacement** dependency management ('JNPM') fetches missing imports on demand
-* integrated bundler/transpiler. Integrates google-clojure compiler to compile down to **ES5** in production mode
+* integrated **bundler/transpiler**. Integrates **google-clojure compiler** to compile down to **ES5** in production mode
 * Sophisticated **java/javascript interoperation**. Fulfil Promises from js by java code, server push by calling callbacks from java transparently to js client code.
 
 Has been tested with major react-UI libs: react-material-ui, react-bootstrap and react-semantic-ui (should work with any npm powered js lib)

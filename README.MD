@@ -16,7 +16,7 @@ Has been tested with major react-UI libs: react-material-ui, react-bootstrap and
 
 [![Watch the video](http://img.youtube.com/vi/CuYuynl16o4/0.jpg)](http://youtu.be/CuYuynl16o4)
 
-**more docs**
+**Docs**
 
 [Kontraktor's JSX transpilation + npm emulation](https://github.com/RuedigerMoeller/kontraktor/wiki/Kontraktor-4-React-JSX)
 
@@ -24,7 +24,7 @@ Has been tested with major react-UI libs: react-material-ui, react-bootstrap and
 
 [Examples for semantic-ui-react and react-bootstrap](https://github.com/RuedigerMoeller/kontraktor/tree/trunk/examples/webapp-spa/react-ui-lib-examples)
 
-**how to run:**
+**How to run:**
 
 * add project to your ide (from pom)
 * run ReactMaterialUITestApp with workingdir [...]/examples/webapp-spa/react-ui-lib-examples/react-material-ui

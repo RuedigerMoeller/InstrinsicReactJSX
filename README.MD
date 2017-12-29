@@ -1,4 +1,4 @@
-# React JSX app powered by a java backend, java implementation of jsx/bundling/npm/transpilation
+# React JSX front end app powered by a java backend, no node/npm/webpack required
 
 * **intrinsic jsx transpilation** 
 * Ultra fast **hot reloading / live editing**

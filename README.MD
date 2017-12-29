@@ -1,18 +1,17 @@
-# react JSX app powered by a java backend, java implementation of jsx/bundling/npm/transpilation
-
-**Full web app example featuring ..**
+# React JSX app powered by a java backend, java implementation of jsx/bundling/npm/transpilation
 
 * **intrinsic jsx transpilation** 
-* **hot reloading / live editing**
+* Ultra fast **hot reloading / live editing**
 * built-in **npm replacement** dependency management ('JNPM') fetches missing imports on demand
-* integrated bundler/transpiler.
-* (optional) integrates google-clojure compiler to compile down to **ES5** in production mode
-* has been tested with major react-UI libs: react-material-ui, react-bootstrap and react-semantic-ui (should work with any npm powered js lib)
+* integrated bundler/transpiler. Integrates google-clojure compiler to compile down to **ES5** in production mode
+* Sophisticated java/javascript interoperation. Fulfil Promises from js by java code, server push by calling callbacks from java transparently to js client code.
+
+Has been tested with major react-UI libs: react-material-ui, react-bootstrap and react-semantic-ui (should work with any npm powered js lib)
   
 **Server Side**
 
 * Actor based async server (Java 8, node style threading model, but enables multithreading by assigning client sessions to additional threads)
-* (optional) ) Session handling, timeout, ressurrection (SPA client was away/offline and connects back) 
+* (optional) Session handling, timeout, ressurrection (SPA client was away/offline and connects back) 
 * Dynamically change connection type (http adaptive long poll or websockets) without code change
 
 [![Watch the video](http://img.youtube.com/vi/CuYuynl16o4/0.jpg)](http://youtu.be/CuYuynl16o4)

@@ -1,7 +1,5 @@
 # React JSX front end app powered by a java backend, no node/npm/webpack required
 
-[Starter templates and scaffolding](https://github.com/RuedigerMoeller/react-with-java-starter-templates)
-
 ## Frontend
 
 * **intrinsic react jsx transpilation** 
@@ -19,6 +17,10 @@ Has been tested with major react-UI libs: react-material-ui, react-bootstrap and
 * Dynamically change connection type (http adaptive long poll or websockets) without code change
 
 [![Watch the video](http://img.youtube.com/vi/CuYuynl16o4/0.jpg)](http://youtu.be/CuYuynl16o4)
+
+**Getting started**
+
+[Starter templates and scaffolding](https://github.com/RuedigerMoeller/react-with-java-starter-templates)
 
 **Docs**
 

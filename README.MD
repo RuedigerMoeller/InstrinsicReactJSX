@@ -25,7 +25,7 @@ Has been tested with major react-UI libs: react-material-ui, react-bootstrap and
 [Kontraktor home](https://github.com/RuedigerMoeller/kontraktor)
 
 
-**How to run:**
+## How to run:
 
 * add project to your ide (from pom)
 * run ReactMaterialUITestApp with workingdir [...]/examples/webapp-spa/react-ui-lib-examples/react-material-ui
@@ -48,7 +48,7 @@ java -jar target/bundle.jar
 ```
 browser: localhost:8080  (watch console on first request isntalling dependencies ..)
 
-**session resurrection**
+## Session resurrection
 
 * goto localhost:8080 login (just some dummy nick)
 * press greet button

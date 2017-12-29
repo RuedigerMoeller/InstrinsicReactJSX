@@ -17,6 +17,7 @@ Has been tested with major react-UI libs: react-material-ui, react-bootstrap and
 * Dynamically change connection type (http adaptive long poll or websockets) without code change
 
 **Jnpm in action, session ressurrection:**
+
 [![Watch the video](http://img.youtube.com/vi/CuYuynl16o4/0.jpg)](http://youtu.be/CuYuynl16o4)
 
 **Getting started**

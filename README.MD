@@ -18,7 +18,7 @@ Has been tested with major react-UI libs: react-material-ui, react-bootstrap and
 
 
 
-**Jnpm in action, session resurrection:**
+*Jnpm in action, session resurrection:*
 
 [![Watch the video](http://img.youtube.com/vi/CuYuynl16o4/0.jpg)](http://youtu.be/CuYuynl16o4)
 

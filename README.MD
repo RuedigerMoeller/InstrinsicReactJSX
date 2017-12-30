@@ -32,6 +32,8 @@ Has been tested with major react-UI libs: react-material-ui, react-bootstrap and
 
 [Kontraktor's JSX transpilation + npm emulation](https://github.com/RuedigerMoeller/kontraktor/wiki/Kontraktor-4-React-JSX)
 
+[Talking from JavaScript with the Java Server](https://github.com/RuedigerMoeller/kontraktor/wiki/Kontraktor-4-Http)
+
 [Examples for semantic-ui-react and react-bootstrap](https://github.com/RuedigerMoeller/kontraktor/tree/trunk/examples/webapp-spa/react-ui-lib-examples)
 
 [Kontraktor home](https://github.com/RuedigerMoeller/kontraktor)

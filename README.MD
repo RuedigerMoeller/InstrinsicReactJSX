@@ -16,7 +16,9 @@ Has been tested with major react-UI libs: react-material-ui, react-bootstrap and
 * (optional) Session handling, timeout, ressurrection (SPA client was away/offline and connects back) 
 * Dynamically change connection type (http adaptive long poll or websockets) without code change
 
+*Very fast Live Editing / Live Reloading (updates within milliseconds after hitting 'Ctrl-S'):*
 
+[![Watch the video](http://img.youtube.com/vi/IrdrKoP8WD8/0.jpg)](http://youtu.be/IrdrKoP8WD8)
 
 *Jnpm in action, session resurrection:*
 

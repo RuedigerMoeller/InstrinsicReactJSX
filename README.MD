@@ -16,7 +16,9 @@ Has been tested with major react-UI libs: react-material-ui, react-bootstrap and
 * (optional) Session handling, timeout, ressurrection (SPA client was away/offline and connects back) 
 * Dynamically change connection type (http adaptive long poll or websockets) without code change
 
+*Very fast Live Editing / Live Reloading (updates within milliseconds after hitting 'Ctrl-S'):*
 
+[![Watch the video](http://img.youtube.com/vi/IrdrKoP8WD8/0.jpg)](http://youtu.be/IrdrKoP8WD8)
 
 *Jnpm in action, session resurrection:*
 
@@ -29,6 +31,8 @@ Has been tested with major react-UI libs: react-material-ui, react-bootstrap and
 **Docs**
 
 [Kontraktor's JSX transpilation + npm emulation](https://github.com/RuedigerMoeller/kontraktor/wiki/Kontraktor-4-React-JSX)
+
+[Talking from JavaScript with the Java Server](https://github.com/RuedigerMoeller/kontraktor/wiki/Kontraktor-4-Http)
 
 [Examples for semantic-ui-react and react-bootstrap](https://github.com/RuedigerMoeller/kontraktor/tree/trunk/examples/webapp-spa/react-ui-lib-examples)
 

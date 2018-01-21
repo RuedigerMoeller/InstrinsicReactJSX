@@ -63,7 +63,7 @@ browser: localhost:8080  (watch console on first request isntalling dependencies
 * as source is kept in separate files during development mode, loading is somewhat slowish (~3 seconds). Set DEVMODE to false 
 inside ReactMaterialUITestApp, restart server in order to see loading time of bundled and minified app. Even then: First request triggers bundling (cached then) as kontraktor-http favors dynamic optimization over 'pre-building' (since 4.18.5 : static build artifacts support).
 
-[Simpler starter templates and scaffolding](https://github.com/RuedigerMoeller/react-with-java-starter-templates)
+[Simple starter templates and scaffolding](https://github.com/RuedigerMoeller/react-with-java-starter-templates)
 
 ## Session resurrection
 

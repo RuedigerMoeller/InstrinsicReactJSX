@@ -2,11 +2,11 @@ JNPMConfig {
   versionMap:
     {
       # avoid getting beta
-      react :  "~16.2.0"
-      react-dom :  "~16.2.0"
+      react :  "~16.6.0"
+      react-dom :  "~16.6.0"
       material-ui: "~0.20.0"
     }
-  repo: "http://registry.npmjs.org/"
+  repo: "https://registry.npmjs.org/"
   ignoredProdRequires: ['./cjs/react.development.js' './cjs/react-dom.development.js']
   ignoredDevRequires: ['./cjs/react.production.min.js' './cjs/react-dom.production.min.js']
 }
